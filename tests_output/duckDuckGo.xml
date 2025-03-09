@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="duckDuckGo" id="duckDuckGo"
+    errors="1" failures="0" hostname="" id="" package="duckDuckGo" skipped="1"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn&#39;t exist)
+  (The process started from chrome location /google/idx/builtins/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Duck Duck go navigate" classname="duckDuckGo">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

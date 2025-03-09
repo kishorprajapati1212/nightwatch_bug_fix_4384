@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="duckDuckGo"
+    errors="2" failures="0" hostname="" id="" package="duckDuckGo" skipped="0"
+    tests="1" time="23.08" timestamp="">
+  
+    <testcase name="Duck Duck go navigate" classname="duckDuckGo" time="11.54" assertions="0">
+    <error message="An element could not be located on the page using the given search parameters." type="error"><![CDATA[
+    Error
+    at Command.executeCommand (C:\Users\agent\Desktop\New folder (2)\node_modules\nightwatch\lib\page-object\command-wrapper.js:281:22)
+    at Page.click (C:\Users\agent\Desktop\New folder (2)\node_modules\nightwatch\lib\page-object\command-wrapper.js:86:27)
+    at Page.clickRightOfToggleButton (C:\Users\agent\Desktop\New folder (2)\nightwatch\page-objects\DuckPage.ts:12:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   Timed out while waiting for element &#34;By(xpath, .//*[text()=&#34;dsf&#34;])&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+ NoSuchElementError
+   Error while running &#34;click&#34; command: [NoSuchElementError] Unable to locate element: undefined using undefined
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\agent\Desktop\New folder (2)\nightwatch\page-objects\DuckPage.ts:12
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     10 |       await this.api.element.findByText(toggleText)
+     11 |     );
+     12 |     return this.click(toggleButton); 
+     13 |   },
+     14 | };
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
