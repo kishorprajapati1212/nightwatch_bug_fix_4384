@@ -26,8 +26,4 @@ Ensure you have the following installed:
 - **Nightwatch.js** `>=2.x`
 - **Chrome WebDriver**
 
-### **Installation**
-```sh
-git clone https://github.com/org/project.git
-cd project
-npm install
+
